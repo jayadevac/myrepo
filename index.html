@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Myrepo app</title>
+  <link href="_styles/laa-main-styles.css" rel="stylesheet" type="text/css">
 </head>
 <body> 
 <div class="page-wrap">
@@ -25,7 +26,6 @@
   </footer>
   </div>
   <script type="text/javascript">
-  
   function requireRole (role) {
     return function (req, res, next) {
         if (req.session.user && req.session.user.role === role) {
